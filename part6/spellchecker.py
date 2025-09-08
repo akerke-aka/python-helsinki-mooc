@@ -1,3 +1,12 @@
+"""
+Spellchecker
+------------
+This program checks a given text against a wordlist and marks misspelled words.
+
+Functions:
+- wordlist(): reads words from "wordlist.txt" ans saves them in a new list
+- find(text, new_list): compare words from the input text with the new_list and highlights unknown words with asterisks
+"""
 text = str(input("Write text: "))
 
 def wordlist():
