@@ -1,3 +1,14 @@
+"""
+Matrix
+------
+Functions for working with matrices stored in a text file
+
+Functions:
+- read matrix(): reads a matrix from "matrix.txt" and returns it in a new list with integers
+- matrix_sum(): returns the sum of all numbers in the matrix
+- matrix_max(): returns the maximum number from all numbers in the matrix
+- row_sums(): returns a list of sums for each row in a matrix 
+"""
 def matrix_sum():
      matrix = read_matrix()
      matrix_sum = 0
