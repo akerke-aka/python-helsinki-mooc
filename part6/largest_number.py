@@ -1,3 +1,8 @@
+"""
+Largest number
+--------------
+Reads 'numbers.txt' file and finds the largest number.
+"""
 def largest():
     with open("numbers.txt") as new_file:
         largest = 0
